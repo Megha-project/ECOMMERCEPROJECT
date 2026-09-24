@@ -28,6 +28,10 @@ DEBUG = True
 ALLOWED_HOSTS = ['ecommerceproject-mxhl.onrender.com']
 
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://ecommerceproject-mxhl.onrender.com"
+]
+
 # Application definition
 
 INSTALLED_APPS = [
